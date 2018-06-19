@@ -1,2 +1,2 @@
 # yeahnoyeah
-First Design of the Yeah, No, Yeah podcast.
+First implementation of the Yeah, No, Yeah podcast website.
