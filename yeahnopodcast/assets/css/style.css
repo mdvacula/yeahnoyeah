@@ -1,0 +1,138 @@
+body, html {
+  height: 100%;
+  background-color: #000026;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%28000000' fill-opacity='0.50' fill-rule='evenodd'/%3E%3C/svg%3E");
+  color: #FFEBDB;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Cutive', serif;
+}
+
+a {
+  text-decoration: none;
+  color: #91f301;
+}
+
+a:hover {
+  color: #a400d1;
+}
+
+nav a {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+audio {
+  width: 100%;
+}
+
+button {
+  background-color: Transparent;
+}
+
+.container-fluid {
+  /* background-color: #000000; */
+  color: #FFEBDB;
+  opacity: .90;
+  min-height: 100%;
+  max-width: 90%;
+}
+
+.txtbg {
+  height: 100%;
+  color: #FFEBDB;
+  opacity: 1.0;
+}
+
+.butt {
+  border: 2px solid #91f301;
+  border-radius: 12.5px;
+  font-weight: bold;
+  color: #91f301;
+  text-decoration: none;
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.butt:hover {
+  font-weight: 900;
+  border: 2px solid #a400d1;
+  color: #a400d1;
+  text-decoration: none;
+  padding-left: 46px;
+  padding-right: 46px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.butt:active {
+  transition-timing-function: ease-in;
+  transition: background-color .3s;
+  background-color: #a400d1;
+  color: #04102A;
+  text-decoration: none;
+  padding-left: 46px;
+  padding-right: 46px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.welBg {
+  background-image: url("../images/noBG.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  height: 100%;
+  width: 100%;
+}
+
+.wCont {
+  padding-top: 7.5%;
+  height: 85%;
+}
+
+
+.spinner {
+  margin: 100px auto 0;
+  width: 100px;
+  text-align: center;
+}
+
+.spinner>div {
+  background-color: #91f301;
+  background: #a400d1;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  display: inline-block;
+  animation: bouncedelay 1.7s infinite ease-in-out both;
+  margin-right: 5px;
+}
+
+.spinner .spinner_item1 {
+  animation-delay: -0.6s;
+}
+
+.spinner .spinner_item2 {
+  animation-delay: -0.40s;
+}
+
+.spinner .spinner_item3 {
+  animation-delay: -.20s;
+}
+
+
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  40% {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+}
